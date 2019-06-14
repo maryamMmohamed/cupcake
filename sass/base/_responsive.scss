@@ -1,0 +1,239 @@
+@media only screen and (width: 1024px){
+    .chefs-section{
+        .chef-data {
+            ul {
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    nav{
+        .navbar-brand{
+            top: -40px;
+            position: absolute;
+            right: 0;
+        }
+        img{
+            width: 18%;
+            float: right;
+        }
+        .dropdown-menu , .nav-shopping{
+            display: none !important;
+        }
+    }
+    header{
+        margin-top: -40px;
+        height: 535px;
+    }
+    .hot-deal{
+        #timer{
+            span{
+                font-size: 2.4rem;
+            }
+        }
+    }
+    .testimonials{
+        .carousel-inner {
+            height: 430px;
+            .ps-testimonial__content {
+                p {
+                    font-size: 1.8rem !important;
+                }
+            }
+        }
+    }
+    .newsletter{
+        margin: 0;
+        &__img{
+            display:none;
+        }
+    }
+    .new-cake {
+        .ps-section__title {
+            font-size: 2.2rem;
+        }
+    }
+    .chefs-section{
+        .chef-box {
+            img {
+                height: 400px;
+            }
+        }
+        .chef-data {
+            ul {
+                display: none;
+            }
+        }
+    }
+    .words{
+        p{
+            font-size: 11px;
+        }
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    html , body{
+        overflow-x: hidden;
+    }
+    nav{
+        .navbar-brand{
+            top: -40px;
+            position: absolute;
+            right: 0;
+        }
+        img{
+            width: 13%;
+            float: right;
+        }
+        .dropdown-menu , .nav-shopping{
+            display: none !important;
+        }
+    }
+    header{
+        margin-top: -64px;
+        height: 360px;
+        .btn-danger{
+            display: none;
+        }
+    }
+    .testimonials{
+        display: none;
+    }
+    .offer-this-week{
+        .ps-offer{
+            padding-bottom: 15px;
+        }
+    }
+    .service-section{
+        .service-section{
+            padding-top: 40px;
+        }
+    }
+    .newsletter{
+        margin: 0;
+        &__img{
+            display:none;
+        }
+        &__btn{
+            padding: 1.2rem 3rem;
+        }
+    }
+    .contact{
+        background-image: none;
+    }
+    .ps-section__top{
+        font-size: 1.9rem  !important;
+    }
+    .ps-section__title--full {
+        font-size: 2.3rem !important;
+        &:before, &:after {
+            width: 70px  !important;
+        }
+    }
+} 
+
+
+@media only screen and (max-width: 414px){
+    nav{
+        img{
+            width: 12%;
+        }
+    }
+    header {
+        margin-top: -60px;
+        height: 278px;
+        .carousel-caption {
+            top: 33%;
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                margin-top: 12px;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .hot-deal {
+        padding-top:0;
+        .ps-section__top{
+            padding-top: 30px;
+        }
+        #timer{
+            span{
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .chefs-section{
+        .chef-data {
+            ul {
+                display: inline-block;
+            }
+        }
+    }
+    .words {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        p{
+            font-size: 13px;
+        }
+    }
+    .ps-section__title--full {
+        font-size: 2rem !important;
+        &:before, &:after {
+            width: 50px  !important;
+        }
+    }
+    .new-cake{
+        .ps-btn{
+            padding: 6px 10px !important;
+            font-size: 9px !important;
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    header{
+        height: 250px;
+        .carousel-caption {
+            h3{
+                font-size: 1.2rem;
+            }
+            p{
+                margin-top: 12px;
+                font-size: 1rem;
+            }
+        }
+    }
+    .ps-section__top {
+        font-size: 1.6rem !important;
+    }
+    .ps-section__title--full {
+        font-size: 1.8rem !important;
+    }
+    .new-cake {
+        .ps-product__content {
+            p {
+                font-size: 10px !important;
+            }
+        }
+    }
+    .new-cake {
+        .ps-btn {
+            padding: 2px 5px !important;
+            font-size: 8px !important;
+        }
+        .ps-product__price{
+            font-size: 12px !important;
+            del{
+                font-size: 12px !important;
+            }
+        }
+    }
+    .newsletter{
+        &__input {
+            width: 25rem !important;
+        }
+    }
+}
